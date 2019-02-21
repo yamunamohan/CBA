@@ -6,6 +6,6 @@ matrix:
         - clang
         - gcc
       script:  
-        - gcc -o test test.c 
+        - gcc -o test addition.c 
         - ./test
         
